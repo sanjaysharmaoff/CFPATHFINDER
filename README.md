@@ -1,3 +1,4 @@
+
 # CF Pathfinder: Codeforces Problem Recommender CLI & Desktop App 🤖
 
 CF Pathfinder is an advanced tool that recommends Codeforces problems tailored to your skill level and learning needs. It now features both a command-line interface (CLI) and a modern desktop pop-up app built with Electron, providing a seamless and interactive experience.
@@ -194,3 +195,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+=======
