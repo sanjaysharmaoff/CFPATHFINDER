@@ -1,11 +1,10 @@
 
-# CF Pathfinder: Codeforces Problem Recommender CLI & Desktop App 🤖
+# CF Pathfinder: Codeforces Problem Recommender CLI & Desktop App 
 
 CF Pathfinder is an advanced tool that recommends Codeforces problems tailored to your skill level and learning needs. It now features both a command-line interface (CLI) and a modern desktop pop-up app built with Electron, providing a seamless and interactive experience.
 
 ---
-
-## 🚀 Features
+##  Features
 - **Personalized Recommendations:** Suggests problems based on your tag gaps compared to users with ~+500 rating.
 - **Recent Problems:** Only recommends from the latest 1000 problems, ensuring up-to-date practice.
 - **Multi-Tag, Non-Special Problems:** Filters out problems with only one tag or any tag starting with `*` (e.g., `*special`).
@@ -13,11 +12,11 @@ CF Pathfinder is an advanced tool that recommends Codeforces problems tailored t
 - **Easy CLI & Desktop App:** Simple commands for refreshing cache and getting recommendations, plus a beautiful pop-up GUI.
 - **Interactive Pop-up:** Electron-based desktop app with form input and clickable links that open in your default browser.
 
-> ⚠️ **Note:** CF Pathfinder works best for users with Codeforces rating **below 2500**. For very high-rated users, the tag gap algorithm may not be as effective due to limited data.
+>  **Note:** CF Pathfinder works best for users with Codeforces rating **below 2500**. For very high-rated users, the tag gap algorithm may not be as effective due to limited data.
 
 ---
 
-## 🛠️ Installation
+##  Installation
 1. **Clone this repository:**
    ```sh
    git clone <your-repo-url>
@@ -34,7 +33,7 @@ CF Pathfinder is an advanced tool that recommends Codeforces problems tailored t
 
 ---
 
-## 💡 Usage
+##  Usage
 
 ### Get Recommendations (CLI)
 ```
@@ -66,7 +65,7 @@ npm run start:popup
 
 ---
 
-## 📖 User Manual
+##  User Manual
 
 ### CLI Mode
 - Run `node src/index.js recommend --handle <your-handle>` to get personalized recommendations in your terminal.
@@ -82,7 +81,7 @@ npm run start:popup
 
 ---
 
-## 🧑‍💻 Tech Documentation
+##  Tech Documentation
 
 ### Project Structure
 - `src/index.js` — CLI entry point (uses Commander.js)
@@ -113,7 +112,7 @@ npm run start:popup
 
 ---
 
-## 🧠 Algorithm Details
+##  Algorithm Details
 
 1. **Fetch User Data:**
    - Retrieves your solved problems and current rating from Codeforces.
@@ -138,9 +137,9 @@ npm run start:popup
 
 ---
 
-## 📋 Example Output
+##  Example Output
 ```
-🤖 Recommendations for beastw
+ Recommendations for beastw
 ┌─────────────┬────────┬──────────────────────────────┬──────────────────────────────────────────────┐
 │ Name        │ Rating │ Tags                         │ Link                                         │
 ├─────────────┼────────┼──────────────────────────────┼──────────────────────────────────────────────┤
@@ -151,7 +150,7 @@ Query completed in 2.34 seconds.
 
 ---
 
-## 🛠️ All Commands
+##  All Commands
 - `node src/index.js recommend --handle <handle> [--count <count>]`  
   Get personalized problem recommendations.
 - `node src/index.js refresh`  
@@ -165,14 +164,14 @@ Query completed in 2.34 seconds.
 
 ---
 
-## 🐞 Troubleshooting
+##  Troubleshooting
 - If you see outdated problems, run `node src/index.js refresh` to update the cache.
 - If you get network errors, check your internet connection and try again.
 - If you get zero recommendations, try lowering your count or refreshing the cache.
 
 ---
 
-## 📄 License
+##  License
 
 MIT License
 
